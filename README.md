@@ -1,6 +1,6 @@
 # Projeto AW1 - 
 
-Integrantes do projeto:
+## Integrantes do projeto:
 - Jéssica Aguilar Raya Varella Mendes de Souza
 - Josineudo das Chagas Arruda
 - Sabrina Ramos dos Reis
