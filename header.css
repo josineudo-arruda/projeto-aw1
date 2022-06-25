@@ -1,0 +1,7 @@
+@charset "utf-8";
+  
+  .header {
+    overflow: hidden;
+    background-color: #070000;
+    padding: 20px 20px;
+  }
