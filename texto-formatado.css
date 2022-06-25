@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+p, h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    text-indent: 2em;
+}
+
