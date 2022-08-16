@@ -13,3 +13,6 @@ Este trabalho tem o intuito de aplicar os conhecimentos dos alunos envolvidos no
 
 ## Site
 O site escolhido para ser desenvolvido em todo este ano letivo será `http://edition.cnn.com/US/OJ/`. O endereço web de uma página interna da CNN, criada em 1996, não foi tirada do ar e não recebeu nenhuma atualização. É um especial sobre o julgamento de OJ Simpson, ex-jogador de futebol americano acusado de matar sua esposa e um amigo, em 1994.
+
+## Tabela para Acompanhamento de Projetos
+Link para acessar a tabela para acompanhamento de projetos: `https://docs.google.com/spreadsheets/d/1gd-jpIcezzsbNYUT3sXMTdx--n0xhx2GXsYK8BmN4dQ/edit#gid=664740386`
