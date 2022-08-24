@@ -2,6 +2,11 @@
 
 body {
     margin: 0;
+    font-family: 'GlacialIndifferenceRegular';
+}
+
+h1, h2, h3 {
+    font-family: 'Lemon/Milk'
 }
 
 .menu-button {
@@ -123,7 +128,9 @@ section {
     margin-bottom: 16px;
     resize: vertical;
     margin-left: 6px;
+    font-size: 15px;
 }
+
 
 .container input[type=text], select {
     width: 49%;
@@ -139,6 +146,7 @@ section {
     resize: vertical;
     margin-left: 6px;
     width: 49%;
+    font-size: 15px;
 }
 
 .usuario {
@@ -191,9 +199,4 @@ footer div.contato img {
     padding: 2px;
     width: 40px;
     height: 28px;
-}
-
-footer div.container div.contato {
-    display: flex;
-    flex-direction: row;
 }

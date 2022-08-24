@@ -1,8 +1,14 @@
 @charset "utf-8";
 
-p, h1, h2 {
-    font-family: 'Times New Roman', Times, serif;
+body {
+    margin: 0;
+    font-family: 'GlacialIndifferenceRegular';
 }
+
+h1, h2, h3 {
+    font-family: 'Lemon/Milk'
+}
+
 
 p {
     text-align: justify;
