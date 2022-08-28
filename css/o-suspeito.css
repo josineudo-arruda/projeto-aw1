@@ -132,12 +132,12 @@ aside {
     float: right; 
 }
 aside img { 
-    width: 80%;
+    width: 65%;
 }
 
 aside figcaption { 
     text-align: center;
-    width: 80%;
+    width: 60%;
 }
 
 table {
