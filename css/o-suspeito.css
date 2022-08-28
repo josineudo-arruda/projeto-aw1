@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    font-family: 'GlacialIndifferenceRegular';
+}
+
+h1, h2, h3 {
+    font-family: 'Lemon/Milk'
+}
+
+.menu-button {
+    font-size: 16px;
+    border: none;
+    background-color: #2a2828;
+    color: white;
+    padding: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* codificação das característiscas do botão  */
+
+.menu-dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.menu-conteudo {
+    background-color: #282a35;
+    min-width: 160px;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    z-index: 1;
+    position: absolute;
+}
+/* codificação das alternativas do botão  */
+
+.menu-conteudo a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 12px 16px;
+}
+
+.menu-dropdown:hover .menu-conteudo {
+    display: block;
+}
+/* apresentar as opções */
+
+.menu-dropdown:hover .menu-button {
+    background-color: #383535;
+}
+
+.menu-conteudo a:hover {
+    background-color: #383535;
+}
+/* animações do hover */
+
+.menu-dropdown img {
+    width: 18px;
+}
+
+/*navbar*/
+
+#cabecalho {
+    background-color: black;
+    padding: 15px 8px 66px;
+}
+
+.menu-dropdown, .logo {
+    float: left;
+    display: block;
+    padding: 0px 16px;
+}
+.logo {
+    padding: 12px 16px;
+    margin-left: 6px;
+}
+
+form input,form button{
+    float: right;
+    display: inline;
+    margin-top: 7px;
+}
+
+input[type=text] {
+    float: right;
+    padding: 7px;
+    font-size: 17px;
+    border: none;
+    margin-right: 0px;
+}
+
+.pesquisar button {
+    padding: 15px 32px;
+    background: #ddd;
+    border: none;
+}
+
+button {
+    margin-right: 16px;
+    border: none;
+    padding: 5px 5px 5px 8px;
+}
+
+.pesquisar button img {
+    margin-top: 5px;
+}
+
+
+button:hover {
+    background: #ccc;
+}
+
+
+section {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+* {box-sizing: border-box;}
+
+section div.text {
+    width: 65%;
+    text-align: justify;
+    display: block;
+}
+
+aside { 
+    width: 30%; 
+    height: 100%; 
+    float: right; 
+}
+aside img { 
+    width: 80%;
+}
+
+aside figcaption { 
+    text-align: center;
+    width: 80%;
+}
+
+table {
+    border: 5px;
+}
+
+.container-footer {
+    display: flex;
+    flex-basis: 50%;
+    padding: 25px;
+    margin: 1;
+}
+
+footer div.contato img {
+    padding: 2px;
+    width: 40px;
+    height: 28px;
+}
+
+section#conteudo table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+section#conteudo table td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 15px;
+    font-family: 'GlacialIndifferenceRegular';
+}
+
+div.carta {
+    text-align: justify;
+    margin-bottom: 60px;
+}
+
+div.carta p:last-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 40px;
+}
