@@ -188,3 +188,21 @@ div.carta p:last-child {
 h1 {
     font-size: 40px;
 }
+
+/*dados de cada vitima*/
+
+div.dados-nicole {
+    margin-bottom: 10%;
+}
+
+div.dados-ronald {
+    margin-bottom: 15%;
+}
+
+aside.foto img.foto-his {
+    padding: 20px;
+}
+
+section div:last-child {
+    margin-bottom: 50px;
+}
