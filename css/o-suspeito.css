@@ -112,6 +112,7 @@ button:hover {
     background: #ccc;
 }
 
+/* codificação do conteúdo da página  */
 
 section {
     margin-left: 50px;
@@ -125,6 +126,8 @@ section div.text {
     text-align: justify;
     display: block;
 }
+
+/* css da foto e tabela dos familiares  */
 
 aside { 
     width: 30%; 
@@ -171,6 +174,8 @@ section#conteudo table td, th {
     font-family: 'GlacialIndifferenceRegular';
 }
 
+/* css da carta de suicídio  */
+
 div.carta {
     text-align: justify;
     margin-bottom: 60px;
@@ -178,7 +183,6 @@ div.carta {
 
 div.carta p:last-child {
     text-align: right;
-    font-weight: bold;
 }
 
 h1 {

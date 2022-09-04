@@ -112,7 +112,7 @@ button:hover {
     background: #ccc;
 }
 
-/*feedback*/
+/* conteudo do site */
 
 section {
     margin-left: 50px;
@@ -120,7 +120,6 @@ section {
 }
 
 * {box-sizing: border-box;}
-
 
 
 .container-footer {
@@ -140,6 +139,7 @@ h1 {
     font-size: 40px;
 }
 
+/* informações dos acontecimento */
 
 section#conteudo .r-title{
     margin-top: var(--rTitleMarginTop, 0) !important;
