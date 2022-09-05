@@ -112,7 +112,7 @@ button:hover {
     background: #ccc;
 }
 
-/*feedback*/
+/* codificação do conteúdo da página  */
 
 section {
     margin-left: 50px;
@@ -121,73 +121,30 @@ section {
 
 * {box-sizing: border-box;}
 
-.container input[type=text], select, textarea {
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    margin-left: 6px;
-    font-size: 15px;
+section div.text {
+    width: 65%;
+    text-align: justify;
+    display: block;
 }
 
+/* css da foto e tabela dos familiares  */
 
-.container input[type=text], select {
-    width: 49%;
+aside { 
+    width: 30%; 
+    height: 100%; 
+    float: right; 
+}
+aside img { 
+    width: 65%;
 }
 
-.container input[type=number] {
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    margin-left: 6px;
-    width: 49%;
-    font-size: 15px;
+aside figcaption { 
+    text-align: center;
+    width: 60%;
 }
 
-.usuario {
-    padding-bottom: 50px;
-}
-
-textarea {
-    width: 100%; 
-    min-height: 200px;
-    min-width: 200px;
-    resize: none
-}
-
-.container input[type=submit] {
-    background-color: black;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-left: 10px;
-    height: 100px;
-    width: 100px;
-    margin-top: 50px;
-    font-size: 18px;
-}
-
-.container input[type=submit]:hover {
-    background-color: #383535;
-}
-
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-
-#comentario {
-    margin-top: 20px;
+table {
+    border: 5px;
 }
 
 .container-footer {
@@ -203,6 +160,49 @@ footer div.contato img {
     height: 28px;
 }
 
+section#conteudo table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+section#conteudo table td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 15px;
+    font-family: 'GlacialIndifferenceRegular';
+}
+
+/* css da carta de suicídio  */
+
+div.carta {
+    text-align: justify;
+    margin-bottom: 60px;
+}
+
+div.carta p:last-child {
+    text-align: right;
+}
+
 h1 {
     font-size: 40px;
+}
+
+/*dados de cada vitima*/
+
+div.dados-nicole {
+    margin-bottom: 10%;
+}
+
+div.dados-ronald {
+    margin-bottom: 15%;
+}
+
+aside.foto img.foto-his {
+    padding: 20px;
+}
+
+section div:last-child {
+    margin-bottom: 50px;
 }

@@ -141,6 +141,32 @@ h1 {
 
 /* informações dos acontecimento */
 
+section img.foto-section {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+iframe + iframe {
+    margin-bottom: 40px;
+}
+
+iframe {
+    padding: 40px;
+}
+
+
+div.videos {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+section + p {
+    padding-top: 50px;
+}
+
 section#conteudo .r-title{
     margin-top: var(--rTitleMarginTop, 0) !important;
     margin-bottom: var(--rTitleMarginBottom, 0) !important;
@@ -275,8 +301,7 @@ section#conteudo .r-title{
     section#conteudo .page{
     max-width: 47rem;
     padding: 1rem 2rem 4rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 200px;
     }
 
 
@@ -313,3 +338,7 @@ section#conteudo .r-title{
         color: var(--uirLinkTextColor) !important;
         text-decoration: var(--uirLinkTextDecoration) !important;
     }
+
+
+
+
