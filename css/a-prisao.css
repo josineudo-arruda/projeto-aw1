@@ -9,6 +9,8 @@ h1, h2, h3 {
     font-family: 'Lemon/Milk'
 }
 
+
+
 .menu-button {
     font-size: 16px;
     border: none;
@@ -207,4 +209,8 @@ div.box {
 #robert {
     width: 200px;
     height: auto;
+}
+
+footer {
+    margin-top: 120px;
 }
