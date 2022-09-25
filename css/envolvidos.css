@@ -137,6 +137,7 @@ aside {
 }
 aside img { 
     width: 65%;
+    border-radius: 10px;
 }
 
 aside figcaption { 
@@ -202,6 +203,7 @@ div.dados-ronald {
 
 aside.foto img.foto-his {
     padding: 20px;
+    border-radius: 30px;
 }
 
 section div:last-child {
