@@ -9,6 +9,15 @@ h1, h2, h3 {
     font-family: 'Lemon/Milk'
 }
 
+p {
+    max-width: 450rem;
+    padding: 1rem ;
+    text-align: justify;
+    font-family: 'GlacialIndifferenceRegular';
+}
+
+/* codificação das característiscas do botão  */
+
 .menu-button {
     font-size: 16px;
     border: none;
@@ -18,7 +27,6 @@ h1, h2, h3 {
     cursor: pointer;
     font-weight: bold;
 }
-/* codificação das característiscas do botão  */
 
 .menu-dropdown {
     display: inline-block;
@@ -173,6 +181,8 @@ aside#conteudo-lateral a:hover {
     color:bisque;
 }
 
+/*carrossel*/
+
 * {box-sizing: border-box;}
 .mySlides {display: none;}
 
@@ -190,6 +200,10 @@ aside#conteudo-lateral a:hover {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.5s ease;
+}
+
+.dots {
+    margin-left: 500px;
 }
 
 .active {
