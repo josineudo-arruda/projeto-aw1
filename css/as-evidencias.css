@@ -167,3 +167,16 @@ div.box {
     width: 260px;
     border-radius: 10px;
 }
+
+.cenaCrime {
+    width: 260px;
+    border-radius: 10px;
+}
+
+#hide {
+    border-radius: 10px;
+}
+
+#show {
+    border-radius: 10px;
+}

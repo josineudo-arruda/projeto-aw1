@@ -7,6 +7,19 @@
         <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/glacial-indifference" type="text/css"/> 
         <link href="http://fonts.cdnfonts.com/css/lemonmilk" rel="stylesheet">
 		<title>As Evidências</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+        $("#show").click(function(){
+            $(".cenaCrime").show();
+        });
+        $("#hide").click(function(){
+            $(".cenaCrime").hide();
+        });
+        });
+        </script>
+
     </head>
     <body>
         <header id="cabecalho"> <!-- header do site -->
@@ -57,8 +70,12 @@
 
             <h3>Cena do crime</h3>
             <p>Sangue encontrado na cena do crime.</p>
+            <p>Se a imagem abaixo for muito chocante para você, clique em "Esconder".</p>
+            <button id="hide">Esconder</button>
+            <button id="show">Mostrar</button>
+            <br> <br> 
             <div>
-                <img src="/images/evidence-crime_scene.jpg" class="evidencia" alt="cena do crime.">
+                <img src="/images/evidence-crime_scene.jpg" class="cenaCrime" alt="cena do crime.">
             </div>
             <br>
             <hr>
