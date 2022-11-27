@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="/css/formulario.css"> 
+        <link rel="stylesheet" type="text/css" href="/css/structure/footer.css">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/glacial-indifference" type="text/css"/> 
+        <link href="http://fonts.cdnfonts.com/css/lemonmilk" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<title>Feedback</title>
+    </head>
+    <body>
+        <header id="cabecalho"> <!-- header -->
+            <div class="logo">
+                <a href="index.html"><img src="/images/navbar-logo.svg" alt="CNN" width="auto" height="28"></a>
+            </div>
+            <div class="menu-dropdown">
+                <button class="menu-button">Menu <img src="/images/navbar-dropdown.png"></button>
+                <div class="menu-conteudo">
+                    <a href="o-suspeito.html">O Suspeito</a>
+                    <a href="as-vitimas.html">As Vítimas</a>
+                    <a href="o-assassinato.html">O Assassinato</a>
+                    <a href="a-prisao.html">A Prisão</a>
+                    <a href="as-evidencias.html">As Evidências</a>
+                    <a href="as-transcricoes.html">As Transcrições do Julgamento</a> <!-- # será substituído para URLs no desenvolvimento do site -->
+                </div>
+            </div>
+            <div class="pesquisa">
+                <form action="pesquisa.html" method="get">
+                    <button type="submit"><img src="/images/navbar-botão.png" alt="botão" width="20" height="30"></button>
+                    <input type="text" placeholder="pesquisar..." name="pesquisar">
+                </form>
+            </div>
+        </header>
+        <section> <!-- conteudo -->
+            <h1 style="margin-top: 50px;">Resultados</h1> 
+            <hr> 
+            <div class="row">
+                <div id="display-pesquisa1" class="col-6 col-md-4">
+                    <img id="img1" class="img-fluid"src="/images/main-Nicole's_diary.jpg">
+                    <h6 id="title1"></h6>
+                </div>
+                <div id="display-pesquisa2" class="col-6 col-md-4 col-lg-3">
+                    <img id="img2" class="img-fluid" src="">
+                    <h6 id="title2"></h6>
+                </div>
+                <div id="display-pesquisa3" class="col-6 col-md-4 col-lg-3">
+                    <img id="img3" class="img-fluid" src="">
+                    <h6 id="title3"></h6>
+                </div>
+                <div id="display-pesquisa4" class="col-6 col-md-4 col-lg-3">
+                    <img id="img4" class="img-fluid" src="">
+                    <h6 id="title4"></h6>
+                </div>
+                <div id="display-pesquisa5" class="col-6 col-md-4 col-lg-3">
+                    <img id="img5" class="img-fluid" src="">
+                    <h6 id="title5"></h6>
+                </div>
+                <div id="display-pesquisa6" class="col-6 col-md-4 col-lg-3">
+                    <img id="img6" class="img-fluid" src="">
+                    <h6 id="title6"></h6>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <section style="margin-top: 250px;" class="container-footer"> <!-- footer -->
+                <div class="logo"> <!---criação da div onde conterá o logo do site-->
+                    <table>
+                        <tr>
+                            <td><img width="65px" padding= "110px" padding-left="17px" src="/images/footer-logo.jpg"></td> <!--inserção do logo-->
+                            <td>Cable New Network</td> <!---nome do site-->
+                        </tr>
+                    </table>
+                </div>
+
+                <h2>Contato</h2>   
+
+                <div class="contato"> <!--criação da div onde conterá área para contato e preenchimento do formulário-->    
+                    <a class="telefone" id="btTelefone"><img src="/images/footer-telefone.png" alt="imagem de telefone" ></a> <!--vai mostrar um popup com os dados com JS-->
+                    <a class="lampada" href="#cabecalho"><img src="/images/footer-lampada.png" alt="imagem de lampada"></a> <!--com JS colocar popup no btTelefone-->
+                </div>
+
+            </section>
+
+            <section class="copyright">© 1995 Cable News Network, Inc. TODOS DIREITOS RESERVADOS</section> <!--criação de uma section para inserir o copyright-->
+        </footer>
+        <script src="/JS/contato.js"></script>
+        <script src="/JS/pesquisa.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
