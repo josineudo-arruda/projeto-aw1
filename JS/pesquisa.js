@@ -147,7 +147,7 @@ function pesquisarNoticia() {
         }
     }
     if(contt == 0) {
-        const nextURL = 'pesquisa-erro.html';
+        const nextURL = 'pagina-erro.html';
         window.location.href = nextURL;
         window.location.assign(nextURL);
         window.location.replace(nextURL);
