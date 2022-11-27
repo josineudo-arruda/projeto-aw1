@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="/css/formulario.css"> 
         <link rel="stylesheet" type="text/css" href="/css/structure/footer.css">
+        <script language="javascript" src="/JS/pesquisa.js"></script>
         <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/glacial-indifference" type="text/css"/> 
         <link href="http://fonts.cdnfonts.com/css/lemonmilk" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -28,43 +29,43 @@
             <div class="pesquisa">
                 <form action="pesquisa.html" method="get">
                     <button type="submit"><img src="/images/navbar-botão.png" alt="botão" width="20" height="30"></button>
-                    <input type="text" placeholder="pesquisar..." name="pesquisar">
+                    <input type="text" placeholder="pesquisar..." name="search">
                 </form>
             </div>
         </header>
         <section> <!-- conteudo -->
             <h1 style="margin-top: 50px;">Resultados</h1> 
             <hr> 
-            <div class="row">
-                <div id="display-pesquisa1" class="col-6 col-md-4">
-                    <img id="img1" class="img-fluid"src="/images/main-Nicole's_diary.jpg">
-                    <h6 id="title1"></h6>
+            <div class="row pesquisa-row" style="margin-left: 20px">
+                <div style="display: none;"id="display-pesquisa1" class="col-6 col-md-4">
+                    <img id="img1" class="img-fluid img-thumbnail"src="">
+                    <a id="link1" href=""><h6 id="title1"></h6></a>
                 </div>
-                <div id="display-pesquisa2" class="col-6 col-md-4 col-lg-3">
-                    <img id="img2" class="img-fluid" src="">
-                    <h6 id="title2"></h6>
+                <div style="display: none;"id="display-pesquisa2" class="col-6 col-md-4">
+                    <img id="img2" class="img-fluid img-thumbnail" src="">
+                    <a id="link2" href=""><h6 id="title2"></h6></a>
                 </div>
-                <div id="display-pesquisa3" class="col-6 col-md-4 col-lg-3">
-                    <img id="img3" class="img-fluid" src="">
-                    <h6 id="title3"></h6>
+                <div style="display: none;"id="display-pesquisa3" class="col-6 col-md-4">
+                    <img id="img3" class="img-fluid img-thumbnail" src="">
+                    <a id="link3" href=""><h6 id="title3"></h6></a>
                 </div>
-                <div id="display-pesquisa4" class="col-6 col-md-4 col-lg-3">
-                    <img id="img4" class="img-fluid" src="">
-                    <h6 id="title4"></h6>
+                <div style="display: none;"id="display-pesquisa4" class="col-6 col-md-4">
+                    <img id="img4" class="img-fluid img-thumbnail" src="">
+                    <a id="link4" href=""><h6 id="title4"></h6></a>
                 </div>
-                <div id="display-pesquisa5" class="col-6 col-md-4 col-lg-3">
-                    <img id="img5" class="img-fluid" src="">
-                    <h6 id="title5"></h6>
+                <div style="display: none;"id="display-pesquisa5" class="col-6 col-md-4">
+                    <img id="img5" class="img-fluid img-thumbnail" src="">
+                    <a id="link5" href=""><h6 id="title5"></h6></a>
                 </div>
-                <div id="display-pesquisa6" class="col-6 col-md-4 col-lg-3">
-                    <img id="img6" class="img-fluid" src="">
-                    <h6 id="title6"></h6>
+                <div style="display: none;"id="display-pesquisa6" class="col-6 col-md-4">
+                    <img id="img6" class="img-fluid img-thumbnail" src="">
+                    <a id="link6" href=""><h6 id="title6"></h6></a>
                 </div>
             </div>
         </section>
 
         <footer>
-            <section style="margin-top: 250px;" class="container-footer"> <!-- footer -->
+            <section style="margin-top: 320px;" class="container-footer"> <!-- footer -->
                 <div class="logo"> <!---criação da div onde conterá o logo do site-->
                     <table>
                         <tr>
@@ -77,8 +78,8 @@
                 <h2>Contato</h2>   
 
                 <div class="contato"> <!--criação da div onde conterá área para contato e preenchimento do formulário-->    
-                    <a class="telefone" id="btTelefone"><img src="/images/footer-telefone.png" alt="imagem de telefone" ></a> <!--vai mostrar um popup com os dados com JS-->
-                    <a class="lampada" href="#cabecalho"><img src="/images/footer-lampada.png" alt="imagem de lampada"></a> <!--com JS colocar popup no btTelefone-->
+                    <a class="telefone" id="btTelefone"><img src="/images/footer-telefone.png" alt="imagem de telefone" ></a>  <!--vai mostrar um popup com os dados com JS-->
+                    <a class="lampada" href="formulario.html"><img src="/images/footer-lampada.png" alt="imagem de lampada"></a> <!--com JS colocar popup no btTelefone-->
                 </div>
 
             </section>
@@ -86,7 +87,6 @@
             <section class="copyright">© 1995 Cable News Network, Inc. TODOS DIREITOS RESERVADOS</section> <!--criação de uma section para inserir o copyright-->
         </footer>
         <script src="/JS/contato.js"></script>
-        <script src="/JS/pesquisa.js"></script>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
         </script>

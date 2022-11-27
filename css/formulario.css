@@ -60,6 +60,11 @@ h1, h2, h3 {
     width: 18px;
 }
 
+.pesquisa-row h6, .pesquisa-row img {
+    text-align: center;
+    margin-top: 20px;
+}
+
 /*navbar*/
 
 #cabecalho {
